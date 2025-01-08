@@ -5,8 +5,9 @@ header {
 }
 .main-container {
   display: flex;
-  background-color: rgb(167, 158, 158);
+  /* background-color: rgb(167, 158, 158); */
   padding: 5px 50px;
+  gap: 10px;
 }
 .video-section {
   width: 60%;
@@ -20,4 +21,25 @@ header {
 .video-description > h1 {
   font-size: 10px;
   margin-top: 5px;
+}
+.video-description > p {
+  font-size: 8px;
+  margin-top: 5px;
+}
+.comments {
+  font-size: 8px;
+}
+.comments > h2 {
+  font-size: 10px;
+}
+.recommendations {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.recommendation {
+  height: 50px;
+  background-color: red;
+  border-radius: 10px;
+  color: red;
 }
