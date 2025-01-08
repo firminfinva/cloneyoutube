@@ -36,8 +36,14 @@ header {
   display: flex;
   flex-direction: column;
   gap: 3px;
+  width: 40%;
 }
 .recommendation {
+  display: flex;
+  font-size: 10px;
+}
+.box {
+  min-width: 60%;
   height: 50px;
   background-color: red;
   border-radius: 10px;
